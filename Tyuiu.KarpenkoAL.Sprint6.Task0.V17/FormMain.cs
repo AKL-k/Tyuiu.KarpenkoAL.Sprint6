@@ -32,7 +32,7 @@ namespace Tyuiu.KarpenkoAL.Sprint6.Task0.V17
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 0 выполнил студент группы ИБКСб-25-1 Карпенко Артём Леонидович", "Сгорело", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Таск 0 выполнил студент группы ИБКСб-25-1 Карпенко Артём Леонидович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
