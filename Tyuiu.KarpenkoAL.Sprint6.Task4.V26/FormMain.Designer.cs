@@ -192,6 +192,7 @@ namespace Tyuiu.KarpenkoAL.Sprint6.Task4.V26
             textBoxResult.Location = new Point(3, 23);
             textBoxResult.Multiline = true;
             textBoxResult.Name = "textBoxResult";
+            textBoxResult.ReadOnly = true;
             textBoxResult.ScrollBars = ScrollBars.Vertical;
             textBoxResult.Size = new Size(330, 441);
             textBoxResult.TabIndex = 0;
