@@ -20,7 +20,7 @@ namespace Tyuiu.KarpenkoAL.Sprint6.Task5.V4.Lib
 
             if (!File.Exists(path))
             {
-                File.WriteAllText(path, "1\r\n2,5\r\n3\r\n-1\r\n-2,6\r\n-3\r\n0\r\n5,7\r\n-5\r\n6\r\n-6,8\r\n7\r\n-7\r\n8\r\n-8\r\n9,9\r\n-9\r\n10\r\n-10\r\n0");
+                File.WriteAllText(path, "-1\r\n2,5\r\n3\r\n-1\r\n-2,6\r\n-3\r\n0\r\n5,7\r\n-5\r\n6\r\n-6,8\r\n7\r\n-7\r\n8\r\n-8\r\n9,9\r\n-9\r\n10\r\n-10\r\n0");
             }
 
             List<double> result = new List<double>();
