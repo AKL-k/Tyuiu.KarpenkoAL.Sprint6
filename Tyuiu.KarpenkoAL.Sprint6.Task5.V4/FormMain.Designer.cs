@@ -144,6 +144,8 @@
             // 
             // dataGridViewResult
             // 
+            dataGridViewResult.AllowUserToResizeColumns = false;
+            dataGridViewResult.AllowUserToResizeRows = false;
             dataGridViewResult.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewResult.ColumnHeadersVisible = false;
             dataGridViewResult.Columns.AddRange(new DataGridViewColumn[] { ColumnNumber, ColumnResult });
