@@ -10,6 +10,9 @@ namespace Tyuiu.KarpenkoAL.Sprint6.Task7.V23
         public FormMain()
         {
             InitializeComponent();
+
+            buttonDone.Enabled = false;
+            buttonSave.Enabled = false;
         }
 
         DataService ds = new DataService();
