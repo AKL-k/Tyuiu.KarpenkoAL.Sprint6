@@ -22,7 +22,14 @@ namespace Tyuiu.KarpenkoAL.Sprint6.Task0.V17
             DataService ds = new DataService();
             try
             {
-                textBoxResult.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxValue_x_Input.Text)));
+                if (textBoxValue_x_Input.Text == Convert.ToString(0))
+                {
+                    MessageBox.Show("На ноль делить нельзя", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    textBoxResult.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxValue_x_Input.Text)));
+                }
             }
             catch
             {
