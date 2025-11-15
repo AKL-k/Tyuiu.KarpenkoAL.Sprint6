@@ -220,6 +220,7 @@
             ClientSize = new Size(1086, 450);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            MaximizeBox = false;
             Name = "FormMain";
             Text = "Спринт 6 | Таск 3 | Вариант 14 | Карпенко А. Л.";
             Load += FormMain_Load;
