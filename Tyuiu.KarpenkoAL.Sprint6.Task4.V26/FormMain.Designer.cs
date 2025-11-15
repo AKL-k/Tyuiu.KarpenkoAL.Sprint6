@@ -241,6 +241,7 @@ namespace Tyuiu.KarpenkoAL.Sprint6.Task4.V26
             Controls.Add(splitter1);
             Controls.Add(panelResult);
             Controls.Add(panelTask);
+            MaximizeBox = false;
             MinimumSize = new Size(1323, 661);
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
