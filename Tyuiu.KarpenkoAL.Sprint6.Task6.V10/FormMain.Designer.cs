@@ -154,6 +154,7 @@
             textBoxIn.Location = new Point(3, 23);
             textBoxIn.Multiline = true;
             textBoxIn.Name = "textBoxIn";
+            textBoxIn.ReadOnly = true;
             textBoxIn.ScrollBars = ScrollBars.Vertical;
             textBoxIn.Size = new Size(615, 382);
             textBoxIn.TabIndex = 0;
@@ -183,6 +184,7 @@
             textBoxOut.Location = new Point(3, 23);
             textBoxOut.Multiline = true;
             textBoxOut.Name = "textBoxOut";
+            textBoxOut.ReadOnly = true;
             textBoxOut.ScrollBars = ScrollBars.Vertical;
             textBoxOut.Size = new Size(645, 383);
             textBoxOut.TabIndex = 0;
