@@ -175,6 +175,7 @@
             // 
             dataGridViewIn.AllowUserToResizeColumns = false;
             dataGridViewIn.AllowUserToResizeRows = false;
+            dataGridViewIn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             dataGridViewIn.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewIn.ColumnHeadersVisible = false;
             dataGridViewIn.Location = new Point(9, 23);
@@ -210,6 +211,7 @@
             // 
             dataGridViewOut.AllowUserToResizeColumns = false;
             dataGridViewOut.AllowUserToResizeRows = false;
+            dataGridViewOut.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridViewOut.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewOut.ColumnHeadersVisible = false;
             dataGridViewOut.Location = new Point(8, 23);
